@@ -242,4 +242,5 @@ python train.py --config experiments/config_experiment1.json
 python train.py && python evaluate.py
 ```
 
-Refactor from iPynb to classic ML pipeline supported (but not entirely done) by Claude Code
+### Notes
+Data generated for the whitepaper was done using Jupyter notebook. Refactor was performed after, as an exercise in creating ML pipelines. Refactor was supported (but not entirely done) by Claude Code.
