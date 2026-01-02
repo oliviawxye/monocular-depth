@@ -1,5 +1,7 @@
 # Depth Estimation ML Pipeline
 
+[Whitepaper](https://drive.google.com/file/d/1I51qL0I50VBs3nfu659jSrqkt_nuKS-l/view?usp=sharing)
+
 A structured machine learning pipeline for depth estimation using multiple models: Linear Regression, Support Vector Regression (SVR), Multi-Layer Perceptron (MLP), and Convolutional Neural Network (CNN).
 
 ## Project Structure
