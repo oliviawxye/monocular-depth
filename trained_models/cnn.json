@@ -1,0 +1,27 @@
+{
+    "model_name": "CNN",
+    "best_params": {
+        "conv_channels": [
+            256
+        ],
+        "kernel_sizes": [
+            3,
+            3
+        ],
+        "pool_sizes": [
+            2,
+            1
+        ],
+        "fc_hidden_sizes": [],
+        "weight_decay": 0,
+        "lr": 0.001,
+        "batch_size": 64,
+        "epochs": 20,
+        "dropout": 0.2,
+        "input_channels": 3,
+        "input_height": 30,
+        "input_width": 40
+    },
+    "validation_rmse": 0.7732213806914224,
+    "test_rmse": 0.820406590469761
+}

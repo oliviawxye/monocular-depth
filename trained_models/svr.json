@@ -1,0 +1,11 @@
+{
+    "model_name": "SVR",
+    "best_params": {
+        "epsilon": 0.1,
+        "C": 27.825594022071257,
+        "gamma": 0.007742636826811269,
+        "kernel": "rbf"
+    },
+    "validation_rmse": 0.7449084720130824,
+    "test_rmse": 0.7659196420958913
+}

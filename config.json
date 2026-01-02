@@ -1,0 +1,90 @@
+{
+    "data": {
+        "data_dir": "data",
+        "output_dir": "trained_models"
+    },
+    "regression": {
+        "degree": 1,
+        "regularization_params": {
+            "start": -10,
+            "stop": 10,
+            "num": 20,
+            "base": 10
+        },
+        "batch_size": 64,
+        "iterations": 10
+    },
+    "svr": {
+        "epsilons": {
+            "start": -3,
+            "stop": 2,
+            "num": 6,
+            "base": 10
+        },
+        "Cs": {
+            "start": -3,
+            "stop": 5,
+            "num": 10,
+            "base": 10
+        },
+        "gammas": {
+            "start": -6,
+            "stop": 1,
+            "num": 10,
+            "base": 10
+        },
+        "iterations": 10
+    },
+    "mlp": {
+        "architectures": [
+            [4],
+            [8],
+            [4, 4],
+            [8, 8],
+            [4, 4, 4],
+            [8, 8, 8],
+            [4, 4, 4, 4],
+            [8, 8, 8, 8],
+            [16],
+            [32],
+            [16, 16],
+            [32, 32],
+            [16, 16, 16],
+            [32, 32, 32],
+            [16, 16, 16, 16],
+            [32, 32, 32, 32],
+            [256],
+            [512],
+            [1024]],
+        "weight_decays": [0],
+        "lr": 0.001,
+        "batch_size": 64,
+        "iterations": 10,
+        "epochs": 10,
+        "dropout": 0.2
+    },
+    "cnn": {
+        "architectures": [
+            {"conv_channels": [4, 8], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [8, 16], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [4, 4, 8], "kernel_sizes": [3, 3, 3], "pool_sizes": [2, 1, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [8, 16, 32], "kernel_sizes": [3, 3, 3], "pool_sizes": [2, 1, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [4, 4, 8, 8], "kernel_sizes": [3, 3, 3, 3], "pool_sizes": [2, 1, 1, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [8, 16, 32, 64], "kernel_sizes": [3, 3, 3, 3], "pool_sizes": [2, 1, 1, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [4], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [8], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [16], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [256], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []},
+            {"conv_channels": [1024], "kernel_sizes": [3, 3], "pool_sizes": [2, 1], "fc_hidden_sizes": []}
+        ],
+        "weight_decays": [0],
+        "lr": 0.001,
+        "batch_size": 64,
+        "iterations": 10,
+        "epochs": 20,
+        "dropout": 0.2,
+        "input_channels": 3,
+        "input_height": 30,
+        "input_width": 40
+    }
+}

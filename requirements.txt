@@ -1,0 +1,10 @@
+scipy
+numpy==2.0.0
+ipykernel
+h5py
+ipywidgets
+matplotlib
+scikit-learn
+scikit-image
+tqdm
+torch

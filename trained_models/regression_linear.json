@@ -1,0 +1,10 @@
+{
+    "model_name": "PolynomialRegression_degree1",
+    "best_params": {
+        "alpha": 4832.930238571752,
+        "degree": 1,
+        "batch_size": 64
+    },
+    "validation_rmse": 1.8307313914996193,
+    "test_rmse": 1.9713707779741216
+}
