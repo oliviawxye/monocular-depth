@@ -7,7 +7,7 @@ A structured machine learning pipeline for depth estimation using multiple model
 ## Project Structure
 
 ```
-syde522-final/
+monocular-depth/
 ├── config.json            # Hyperparameter configuration file
 ├── data_utils.py          # Data loading and preprocessing utilities
 ├── models/                # Model classes
